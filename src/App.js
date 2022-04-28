@@ -1,7 +1,12 @@
+import Message from "./Message";
+import './index.css'
+
+const message = "Hi React!"
+
 function App() {
   return (
-    <div>
-      
+    <div className="wrapper">
+      <Message text={message}/>
     </div>
   );
 }
